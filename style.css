@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Kulim+Park:wght@300;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:wght@400;500;700&family=Sarala:wght@400;700&display=swap');
-
+/* Tela inteira */
 *{
     font-family: 'Kulim Park', sans-serif;
     text-decoration: none;
@@ -12,6 +12,8 @@ body{
     background: #eee;
     /* background: #01011C; */
 }
+
+/* Cabeçalho da página */
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -44,6 +46,8 @@ a:hover{
     /* padding-bottom: 35px; */
     font-size: 18px;
 }
+
+/* Conteúdo principal da página */
 .cont{
     /* margin-bottom: 48px; */
     border-top: 1px solid black;
@@ -74,6 +78,8 @@ a:hover{
 .carro{
     width: 390px;
 }
+
+/* Conteúdo secundário da página */
 .cont-secundario-titulo{
     text-align: center;
     margin-bottom: 30px;
@@ -98,6 +104,8 @@ a:hover{
 .cont-secundario{
     margin-bottom: 100px;
 }
+
+/* Formulário de cadastro da página */
 form{
     text-align: center;
     margin-bottom: 100px;
@@ -151,6 +159,8 @@ input::placeholder{
     15px 20px 20px rgba(0, 0, 0, 0.05),
     inset -10px -10px 25px red;
 }
+
+/* Rodapé */
 footer{
     border-top: 0.4px solid;
 }
