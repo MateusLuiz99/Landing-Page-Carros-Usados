@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Kulim+Park:wght@300;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:wght@400;500;700&family=Sarala:wght@400;700&display=swap');
+
+*{
+    font-family: 'Kulim Park', sans-serif;
+    text-decoration: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    /* color: white; */
+}
+body{
+    background: #eee;
+    /* background: #01011C; */
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    flex-direction: column;
+    line-height: 0px;
+}
+a{
+    transition: 0.4s all;
+    color: black;
+    /* color: white; */
+}
+a:hover{
+    color: red;
+}
+.menu-item-btn{
+    border: 2px solid red;
+    border-radius: 15px;
+    /* color: white; */
+}
+.menu-item-btn:hover{
+    background-color: red;
+    color: white;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 62px;
+    /* padding-bottom: 35px; */
+    font-size: 18px;
+}
+.cont{
+    /* margin-bottom: 48px; */
+    border-top: 1px solid black;
+}
+.cont-principal-esc{
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.title-cont{
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 40px;
+}
+.cont-principal-esc-titulo{
+    color: red;
+}
+.cont-principal-sobre{
+    line-height: 25px;
+    max-width: 950px;
+    /* padding-top: 10px; */
+}
+.div-car{
+    position: relative;
+    padding-left: 750px;
+    margin-top: -500px;
+    margin-bottom: -70px;
+}
+.carro{
+    width: 390px;
+}
+.cont-secundario-titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.cont-secundario-1{
+    padding-left: 110px;
+    line-height: 22px;
+    max-width: 1100px;
+}
+.cont-secundario-2{
+    padding-left: 110px;
+    line-height: 22px;
+    max-width: 1100px;
+}
+.cont-secundario-3{
+    padding-left: 110px;
+    line-height: 22px;
+    max-width: 1100px;
+}
+.cont-secundario{
+    margin-bottom: 100px;
+}
+form{
+    text-align: center;
+    margin-bottom: 100px;
+}
+#nome{
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border-width: 1px;
+    width: 350px;
+    height: 25px;
+    padding-left: 25px;
+    border-color: antiquewhite;
+    border-top: antiquewhite;
+    border-left: antiquewhite;
+    outline: none;
+    background-color: white;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    15px 25px 10px rgba(0, 0, 0, 0.05),
+    15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+#email{
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border-width: 1px;
+    width: 350px;
+    height: 25px;
+    padding-left: 25px;
+    border-color: antiquewhite;
+    border-top: antiquewhite;
+    border-left: antiquewhite;
+    outline: none;
+    background-color: white;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    15px 25px 10px rgba(0, 0, 0, 0.05),
+    15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px rgba(255, 255, 255, 0.9);
+}
+input::placeholder{
+    color: rgb(179, 179, 179);
+}
+.btn{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    width: 115px;
+    height: 45px;
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    15px 25px 10px rgba(0, 0, 0, 0.05),
+    15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 25px red;
+}
+footer{
+    border-top: 0.4px solid;
+}
+footer .rodape{
+    text-align: center;
+}
+footer span{
+    font-weight: bold;
+}
+
